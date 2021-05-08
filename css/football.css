@@ -32,7 +32,7 @@ body {
 
 @media (max-width: 1024px) {
    .main-header {
-      height: 25vh;
+      height: 10vh;
    }
 }
 
@@ -170,14 +170,25 @@ nav ul a:hover {
    padding: 30px 0;
 }
 
-.team {
-   color: #ff0000;
-   font-weight: 100;
-   margin: 40px 0px 20px;
-   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+.teams {
+   width: 75%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
 }
 
-.team-2 {
+.teams h2 {
+   color: #fff;
+   line-height: 5px;
+}
+
+.team {
+   color: #800000;
+   font-weight: 100;
+   text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+}
+
+.team-3 {
    color: #000;
    font-weight: 100;
    margin: 40px 0px 20px;
@@ -187,8 +198,17 @@ nav ul a:hover {
 .vs {
    color: #fff;
    font-weight: 100;
-   margin: 40px 0px 20px;
+   margin: 20px 40px;
 } 
+
+.date {
+   color: #fff;
+   margin-top: 20px;
+}
+
+.date p {
+   font-weight: bold;
+}
 
 #clockdiv { 
    margin: 20px 0;
@@ -236,7 +256,7 @@ smalltext {
    }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
    #clockdiv {
       display: flex;
       font-size: 10px;
@@ -244,8 +264,25 @@ smalltext {
       margin-right: auto;
       display: block;
    }
+   .vs {
+      margin: 20px 20px;
+   }
+   .teams h1 {
+      font-size: 1.2rem;
+  }
+  .teams h2 {
+     font-size: 1.1rem;
+  }
 }
 
+@media (max-width: 450px) {
+   .teams h1 {
+      font-size: 1rem;
+   }
+   .teams h2 {
+      font-size: 0.9rem;
+   }
+}
 /* Schedule */
 .schedule {
    display: flex;
@@ -712,6 +749,10 @@ td {
       width: 100%;
    }
 
+   .champs h2 {
+      font-size: 20px;
+   }
+
    .champs img {
       width: 300px;
    }
@@ -803,7 +844,9 @@ h1 {
    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 } 
 
-
+h2 {
+   font-family: 'Orbitron', sans-serif;
+}
 
 
 
