@@ -574,6 +574,10 @@ smalltext {
 }
 
 @media (max-width: 600px) {
+   .main-container h1 {
+      font-size: 25px;
+   }
+   
    .card {
       width: 80%;
       flex-direction: column;
