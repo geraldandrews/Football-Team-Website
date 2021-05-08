@@ -767,6 +767,20 @@ td {
    } 
 }
 
+@media (max-width: 600px) {
+   .champs {
+      width: 85%;
+   }
+   
+   .champs img {
+      width: 100%;
+   }
+   
+   .champions table {
+      width: 100%;
+   }
+}
+
 /* Articles */
 .articles {
    width: 75%;
