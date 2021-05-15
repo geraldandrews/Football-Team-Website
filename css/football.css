@@ -85,10 +85,6 @@ nav ul a:hover {
    justify-content: space-between;
 }
 
-.logo {
-   margin-left: 5px;
-}
-
 .bar {
    width: 30px;
    height: 3px;
@@ -97,9 +93,11 @@ nav ul a:hover {
 }
 
 .btn {
-   padding: 2px;
-   display: inline-block;
-   align-self: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-right: 10px;
+   margin-top: 14px;
 }
 
 @media screen and (min-width:818px){
@@ -126,16 +124,29 @@ nav ul a:hover {
   }
 }
 
+.beavers-logo {
+   background: #fff;
+   width: 75%;
+   margin: auto;
+}
+
+.beavers-logo img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+
 /* Championships Container */
 .top-container {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background: #f1f1f1;
+   background: #fff;
    width: 75%;
    margin: auto;
-   padding: 10px 0;
+   padding-bottom: 20px;
 } 
 
 .top-container p {
@@ -145,6 +156,10 @@ nav ul a:hover {
 }
 
 @media (max-width: 817px) {
+   .beavers-logo {
+      width: 100%;
+   }
+   
    .top-container {
       width: 100%;
    }
@@ -447,11 +462,24 @@ smalltext {
 }
 
 /* Roster */
+.roster-beavers-logo {
+   background: #ccc;
+   width: 75%;
+   margin: auto;
+}
+
+.roster-beavers-logo img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   
 .roster {
    width: 75%;
    margin: auto;
    background: #ccc;
-   padding: 30px 0;
+   padding-top: 15px;
+   padding-bottom: 30px;
 }
 
 .roster-list {
@@ -509,6 +537,19 @@ smalltext {
 }
 
 /* History */
+.history-beavers-logo {
+   background: #ccc;
+   width: 75%;
+   margin: auto;
+}
+
+.history-beavers-logo img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+
 .main-container {
    background: #ccc;
    width: 75%;
@@ -559,6 +600,10 @@ smalltext {
 }
 
 @media (max-width: 817px) {
+   .history-beavers-logo {
+      width: 100%;
+   }
+   
    .main-container {
       width: 100%;
    }
@@ -584,6 +629,19 @@ smalltext {
 }
 
 /* Records */
+.records-beavers-logo {
+   background: #ccc;
+   width: 75%;
+   margin: auto;
+}
+
+.records-beavers-logo img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+
 .records {
    display: flex;
    flex-direction: column;
@@ -641,6 +699,10 @@ td {
 }
 
 @media (max-width: 817px) {
+   .records-beavers-logo {
+      width: 100%;
+   }
+   
    .records {
       width: 100%;
    }
@@ -659,6 +721,19 @@ td {
 }
 
 /* Champions */
+.championships-beavers-logo {
+   background: #f1f1f1;
+   width: 75%;
+   margin: auto;
+}
+
+.championships-beavers-logo img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+
 .championships {
    width: 75%;
    margin: auto;
@@ -734,6 +809,10 @@ td {
 }
 
 @media (max-width: 817px) {
+   .championships-beavers-logo {
+      width: 100%;
+   }
+   
    .championships {
       width: 100%;
    }
