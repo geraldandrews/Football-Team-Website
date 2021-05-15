@@ -474,6 +474,7 @@ smalltext {
    margin-left: auto;
    margin-right: auto;
    width: 100%;
+}
    
 .roster {
    width: 75%;
@@ -516,6 +517,10 @@ smalltext {
 }
 
 @media (max-width: 817px) {
+   .roster-beavers-logo {
+      width: 100%;
+   }
+   
    .roster {
       width: 100%;
    }
