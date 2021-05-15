@@ -854,6 +854,19 @@ td {
 }
 
 /* Articles */
+.articles-beavers-logo {
+   background: #fff;
+   width: 75%;
+   margin: auto;
+}
+
+.articles-beavers-logo img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+
 .articles {
    width: 75%;
    margin: auto;
@@ -901,6 +914,10 @@ td {
 }
 
 @media (max-width: 817px) {
+   .articles-beavers-logo {
+      width: 100%;
+   }
+   
    .articles {
       width: 100%;
    }
