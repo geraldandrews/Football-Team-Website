@@ -85,6 +85,10 @@ nav ul a:hover {
    justify-content: space-between;
 }
 
+.logo {
+   margin-left: 5px;
+}
+
 .bar {
    width: 35px;
    height: 3px;
