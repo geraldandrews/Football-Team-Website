@@ -86,10 +86,11 @@ nav ul a:hover {
 }
 
 .bar {
-   width: 30px;
+   width: 35px;
    height: 3px;
    margin: 7px;
    background: #fff;
+   margin: 4px;
 }
 
 .btn {
