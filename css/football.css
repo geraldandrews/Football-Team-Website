@@ -14,15 +14,6 @@ body {
 }
 
 /* Header */
-.header-title h1 {
-   background: linear-gradient(#1B2631,#34495E);
-   color: #fff;
-   text-shadow: -1px 0 maroon, 0 1px maroon, 1px 0 maroon, 0 -1px maroon;
-   width: 75%;
-   margin: auto;
-   padding: 5px 0;
-}
-
 .main-header {
    background: url('../Images/header-img.png') no-repeat center center/cover;
    width: 75%;
