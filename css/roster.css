@@ -1,0 +1,85 @@
+/* Roster */
+.roster {
+    width: 75%;
+    margin: auto;
+    background: #ccc;
+    padding-top: 15px;
+    padding-bottom: 30px;
+ }
+ 
+ .roster img {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+ }
+ 
+ .roster-list {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: block;
+    background: #fff;
+    border-radius: 5px;
+ }
+ 
+ .roster-list img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+    border-radius: 5px;
+ }
+ 
+ .roster-list .img-2 {
+    width: 25%;
+ }
+ 
+ .roster-list h3 {
+    text-align: center; 
+    color: #333;
+ }
+ 
+ .roster-list table {
+    margin: auto;
+    width: 100%;
+ }
+ 
+ .roster-list td, th {
+    border: 1px solid rgb(190, 190, 190);
+ }
+ 
+ @media (max-width: 817px) {
+    .roster-beavers-logo {
+       width: 100%;
+    }
+ 
+    .roster {
+       width: 100%;
+    }
+ }
+ 
+ @media (max-width: 640px) {
+    .roster {
+       padding: 0;
+    }
+ 
+    .roster h1 {
+       padding: 10px 0px;
+    }
+ 
+    .roster-list  {
+       width: 100%; 
+       font-size: 10px; 
+       font-weight: bold;
+    }
+ 
+    .roster-list img {
+       border-radius: 0;
+    }
+ }
+ 
+ 

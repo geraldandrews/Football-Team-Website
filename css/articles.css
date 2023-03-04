@@ -1,0 +1,85 @@
+/* Articles */
+.articles-logo {
+    width: 75%;
+    margin: auto;
+    background: #ccc;
+ }
+ 
+ .articles-logo img {
+    width: 100%;
+ }
+ 
+ .articles {
+    width: 75%;
+    margin: auto;
+    background: #ccc;
+ }
+ 
+ .articles img {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+ }
+ 
+ .articles h1 {
+    padding: 15px 0;
+ }
+ 
+ .article-img {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    row-gap: 40px;
+    justify-items: center;
+    padding: 20px 0;
+ }
+ 
+ .article-img img {
+    width: 200px;
+    border-radius: 5px;
+ }
+ 
+ .article-img img:hover {
+    box-shadow: 0 10px 15px rgb(0, 0, 0, 0.7);
+ }
+ 
+ @media (max-width: 1100px) {
+    .article-img {
+       grid-template-columns: repeat(2, 1fr);
+    }
+ 
+    .article-img img {
+       width: 300px;
+    }
+ }
+ 
+ @media (max-width: 817px) {
+    .articles-beavers-logo {
+       width: 100%;
+    }
+ 
+    .articles {
+       width: 100%;
+    }
+ }
+ 
+ @media (max-width: 600px) {
+    .articles-logo {
+       width: 100%;
+    }
+    
+    .articles img {
+       width: 300px;
+    }
+ 
+    .article-img {
+       grid-template-columns: 1fr;
+    }
+ 
+    .article-img img {
+       width: 350px;
+    }
+ } 
+ 

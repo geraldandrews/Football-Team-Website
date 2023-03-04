@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../img/helmet images.jpg');
+}
+
+.schedule {
+    background: linear-gradient(rgba(128, 0, 0, 0.9),rgba(128, 0, 0, 0.9)),url('../Images/stadium.jpg') no-repeat fixed center center/cover;
+    width: 75%;
+    margin: auto;
+    padding: 25px;
+    background-blend-mode: multiply;
+}
+
+.schedule-header h1 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #660000;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.schedule-header h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.schedule-header img {
+    width: 35%;
+    display: block;
+    margin: 15px auto;
+}
+
+.schedule-header .logo-img {
+    display: none;
+}
+
+.schedule-body {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.schedule-column, .schedule-column2 {
+    width: 31%;
+}
+
+.scheduled-game {
+    width: 100%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(252, 252, 252, 0.7);
+    margin: 15px 0;
+    text-align: center;
+}
+
+.schedule-column2 .scheduled-game {
+    flex-direction: row-reverse;
+}
+
+
+.scheduled-game img {
+    width: 100px;
+}
+
+.schedule-date {
+    margin: auto;
+}
+
+.schedule-date p {
+    text-transform: capitalize;
+    font-family: 'Titillium', sans-serif;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.team {
+    font-weight: bolder;
+}
+
+.schedule-column h3 {
+    text-transform: capitalize;
+    font-family: 'Titillium', sans-serif;
+    color: #fff;
+}
+
+.schedule-imgs {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.schedule-imgs img {
+   width: 75%;
+}
+
+.listen {
+    margin: 15px 0;
+}
+
+.listen img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listen p {
+    font-family: 'Titillium', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.listen-tablet {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .schedule-header .logo-img {
+        display: block;
+        width: 25%;
+        margin: 25px auto;
+    }
+    
+    .schedule-column, .schedule-column2 {
+        width: 45%;
+    }
+
+    .schedule-imgs {
+        display: none;
+    }
+
+    .listen-tablet {
+        display: block;
+    }
+
+    .listen-tablet img {
+        width: 25%;
+        display: block;
+        margin: 5px auto;
+    }
+
+    .listen-tablet p {
+        text-align: center;
+        font-family: 'Titillium', sans-serif;
+        color: #fff;
+    }
+}
+
+@media (max-width: 912px) {
+    .schedule {
+        width: 100%;
+    }
+
+    .schedule-column, .schedule-column2 {
+        width: 43%;
+    }
+}
+
+@media (max-width: 600px) {
+    .schedule-header h1 {
+        font-size: 2rem;
+    }
+
+    .schedule-header h2 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .schedule-header img {
+        width: 50%;
+    }
+
+    .schedule-header .logo-img {
+        display: none;
+    }
+
+    .schedule-body {
+        flex-direction: column;
+    }
+
+    .schedule-column, .schedule-column2 {
+        width: 70%;
+    }
+
+    .schedule-imgs {
+        display: block;
+        width: 100%;
+    }
+
+    .schedule-imgs img {
+        width: 35%;
+        display: block;
+        margin: 5px auto;
+    }
+
+    .listen-tablet {
+        display: none;
+    }
+    
+    .record-text h2 {
+        font-size: 1.5rem ;
+    }
+}
+
+@media (max-width: 400px) {
+    .schedule-column, .schedule-column2 {
+        width: 95%;
+    }
+}
+
+/** Icon Section **/
+.icon-section {
+    background: #ccc;
+    width: 75%;
+    margin: auto;
+    padding: 25px 0;
+}
+
+.icon-section .believe {
+    font-family: 'Playball', cursive;
+    font-size: 4rem;
+    color: #660000;
+}
+
+.heading-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.heading-div h1 {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    font-size: 3rem; 
+    font-weight: bold;
+    color: #660000;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.icon-div .fas {
+    color: #660000;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.icon-image {
+    width: 50%;
+}
+
+.icon-section img {
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+}
+
+.icon-section .believe-img {
+    margin: 15px auto;
+}
+
+@media (max-width: 1024px) {
+    .icon-div .fas {
+        font-size: 4rem;
+    }
+    
+    .icon-section img {
+        width: 75%;
+    }
+}
+
+@media (max-width: 912px) {
+    .icon-section {
+        width: 100%;
+    }
+
+    .heading-div h1 {
+        font-size: 2rem;
+    }
+
+    .icon-div .fas {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 600px) {
+.icon-div .fas {
+    font-size: 3rem;
+}
+
+.heading-div h1 {
+    font-size: 3rem;
+   }
+}
