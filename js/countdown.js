@@ -1,4 +1,4 @@
-var deadline = new Date("aug 26, 2022 19:30:00").getTime(); 
+var deadline = new Date("nov 11, 2022 19:30:00").getTime(); 
   
 var x = setInterval(function() { 
   
@@ -14,7 +14,6 @@ document.getElementById("minute").innerHTML = minutes;
 document.getElementById("second").innerHTML =seconds;  
 if (t < 0) { 
         clearInterval(x); 
-        document.getElementById("demo").innerHTML = "TIME UP"; 
         document.getElementById("day").innerHTML ='0'; 
         document.getElementById("hour").innerHTML ='0'; 
         document.getElementById("minute").innerHTML ='0' ;  
