@@ -268,9 +268,9 @@ nav ul a:hover {
 }
 
 .opponent-text {
-   color: #002244;
+   color: #6b0e16;
    font-weight: 100;
-   text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+   text-shadow: -1px 0 #d9a827, 0 1px #d9a827, 1px 0 #d9a827, 0 -1px #d9a827;
 }
 
 .team-card {
@@ -282,7 +282,7 @@ nav ul a:hover {
 }
 
 .team-card .opponent-img {
-   width: 65%;
+   width: 45%;
 }
 
 .card-text {
