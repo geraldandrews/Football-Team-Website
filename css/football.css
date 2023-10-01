@@ -270,7 +270,7 @@ nav ul a:hover {
 }
 
 .opponent-text {
-   color: var(--Independence);
+   color: var(--Pikeview);
    font-weight: 100;
    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
