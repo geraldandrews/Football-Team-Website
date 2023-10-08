@@ -271,7 +271,7 @@ nav ul a:hover {
 }
 
 .opponent-text {
-   color: var(--Pikeview);
+   color: var(--grayson-county);
    font-weight: 100;
    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
