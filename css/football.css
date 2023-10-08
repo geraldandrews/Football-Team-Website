@@ -8,24 +8,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 :root {
+   --Beckley: #551111;
    --Graham: #d9a827;
    --Graham-Red: #6b0e16;
-   --Princeton: #002b93;
-   --Pulaski: #9b052a;
-   --Beckley: #551111;
-   --Richlands: #000066;
-   --Independence: #002244;
-   --Pikeview: #000;
-   --Pikeview-Red: #bb2222;
-   --Tazewell: #338822;
-   --OakHill: #cc0000;
-   --Ridgeview: #4499cc;
-   --NorthMarion: #bbbbbb;
-   --MingoCentral: #64b5f4;
-   --PointPleasant: #eb0700;
-   --PointPleasant-Grey: #7d888c;
+   --grayson county: #0c0c5f;
    --Greenbrier-East-Green: #024911;
    --Greenbrier-East-Yellow: #fec425;
+   --Independence: #002244;
+   --MingoCentral: #64b5f4;
+   --NorthMarion: #bbbbbb;
+   --OakHill: #cc0000;
+   --Pikeview: #000;
+   --Pikeview-Red: #bb2222;
+   --PointPleasant: #eb0700;
+   --PointPleasant-Grey: #7d888c;
+   --Princeton: #002b93;
+   --Pulaski: #9b052a;
+   --Richlands: #000066;
+   --Ridgeview: #4499cc;
+   --Tazewell: #338822;
 }
 
 * {
