@@ -16,6 +16,7 @@
    --Greenbrier-East-Green: #024911;
    --Greenbrier-East-Yellow: #fec425;
    --Independence: #002244;
+   --JamesMonroe: #492e62;
    --MingoCentral: #64b5f4;
    --NorthMarion: #bbbbbb;
    --OakHill: #cc0000;
@@ -272,7 +273,7 @@ nav ul a:hover {
 }
 
 .opponent-text {
-   color: var(--Giles);
+   color: var(--JamesMonroe);
    font-weight: 100;
    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
