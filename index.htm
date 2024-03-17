@@ -1,308 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Official fan website for Bluefield High School Beavers football">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-  crossorigin="anonymous">
-  <link rel="stylesheet" href="css/football.css">
-  <link rel="stylesheet" href="css/lightbox.min.css">
-  <title>Bluefield Beavers Football</title>
-</head>
-<body>
-  <!-- Header -->
-  <div class="header-title"></div>
-  <header class="main-header"></header>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Official fan website for Bluefield High School Beavers football">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/football.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <title>Bluefield Beavers Football</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header-title"></div>
+    <header class="main-header"></header>
 
-  <!-- Navbar -->
-  <nav>
-    <div class="nav-container">
-      <!-- <img src="Images/nav-logo.png" alt="beavers logo" class="logo"> -->
-      <div class="btn">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav-container">
+        <div class="btn">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
       </div>
+
+      <ul>
+        <li><a href="index.htm">Home</a></li>
+        <li><a href="roster.htm">Roster</a></li>
+        <li><a href="history.htm">History</a></li>
+        <li><a href="records.htm">Records</a></li>
+        <li><a href="champions.htm">Championships</a></li>
+      </ul>
+    </nav>
+
+    <div class="beavers-logo">
+      <img src="Images/beavers history logo-3.png">
     </div>
 
-    <ul>
-      <li><a href="index.htm">Home</a></li>
-      <li><a href="roster.htm">Roster</a></li>
-      <li><a href="history.htm">History</a></li>
-      <li><a href="records.htm">Records</a></li>
-      <li><a href="champions.htm">Championships</a></li>
-    </ul>
-  </nav>
-
-<div class="beavers-logo">
-  <img src="Images/beavers history logo-3.png">
-</div>
-
-<!-- Champions -->
-<div class="top-container">
-    <h1>11-Time WV State Champions</h1>
+    <!-- Champions Heading -->
+    <section class="top-container">
+      <h1>11-Time WV State Champions</h1>
       <p>AAA: 1959 1962 1965 1967 1975 1984</p>
       <p>AA: 1997 2004 2007 2009 2017</p>  
-<!-- Audio Player -->
-  <div id="audio">
-    <h5>Fight Song</h5>
-    <audio controls>
-       <source src="audio/on wisconsin.mp3" type="audio/wav">
-    Your browser does not support the audio tag.
-    </audio>
-  </div>
-</div>
+      <!-- Audio Player -->
+      <div id="audio">
+        <h5>Fight Song</h5>
+        <audio controls>
+         <source src="audio/on wisconsin.mp3" type="audio/wav">
+         Your browser does not support the audio tag.
+        </audio>
+      </div>
+    </section>
 
-<!-- Countdown Timer -->
-<section class="countdown">
-  <h1>Gametime Countdown</h1> 
-    <div id="clockdiv"> 
-      <div> 
-        <span class="days" id="day"></span> 
-        <div class="smalltext">Days</div> 
+    <!-- Countdown Timer -->
+    <section class="countdown">
+      <h1>Gametime Countdown</h1> 
+      <div id="clockdiv"> 
+        <div> 
+          <span class="days" id="day"></span> 
+          <div class="smalltext">Days</div> 
+        </div> 
+        <div>  
+          <span class="hours" id="hour"></span> 
+          <div class="smalltext">Hours</div> 
+        </div> 
+        <div> 
+          <span class="minutes" id="minute"></span> 
+          <div class="smalltext">Minutes</div> 
+        </div> 
+        <div> 
+          <span class="seconds" id="second"></span> 
+          <div class="smalltext">Seconds</div> 
+        </div> 
       </div> 
-      <div>  
-        <span class="hours" id="hour"></span> 
-        <div class="smalltext">Hours</div> 
-      </div> 
-      <div> 
-        <span class="minutes" id="minute"></span> 
-        <div class="smalltext">Minutes</div> 
-      </div> 
-      <div> 
-        <span class="seconds" id="second"></span> 
-        <div class="smalltext">Seconds</div> 
-      </div> 
-    </div> 
-    <div class="teams">
-      <div class="team-card">
-        <img src="Images/beavers-logo.png">
-        <h1>Bluefield</h1>
-        <h2>Beavers</h2>
+      <div class="teams">
+        <div class="team-card">
+          <img src="Images/beavers-logo.png">
+          <h1>Bluefield</h1>
+          <h2>Beavers</h2>
+        </div>
+        <span class="vs">at</span>
+        <div class="team-card">
+          <img src="logos/mavericks.png" class="opponent-img">
+          <h1><span class="opponent-text">James Monroe</span></h1>
+          <h2>Mavericks</h2>
+        </div>
       </div>
-      <span class="vs">at</span>
-      <div class="team-card">
-        <img src="logos/mavericks.png" class="opponent-img">
-        <h1><span class="opponent-text">James Monroe</span></h1>
-        <h2>Mavericks</h2>
+      <div class="date">    
+        <h3>H. E. Comer, Jr. Sports Complex - Lindside, WV</h3>
+        <p>Friday November 3, 2023</p>
+        <p>7:30 PM</p>
       </div>
-    </div>
-    <div class="date">    
-      <h3>H. E. Comer, Jr. Sports Complex - Lindside, WV</h3>
-      <p>Friday November 3, 2023</p>
-      <p>7:30 PM</p>
-    </div>
     
-    <!--<div class="watch">
+      <!--<div class="watch">
         <h4>Watch the game <a href="https://www.youtube.com/watch?v=rJwCWtKust8" target="_blank">LIVE!</a></h4>
-    </div>-->
-</section>
+      </div>-->
+    </section>
 
-<section class="schedule">
-  <div class="schedule-header">
-     <h1>2023 bluefield football</h1>
-     <h2>schedule</h2>
-     <img src="Images/beavers-logo.png" class="logo-img">
-  </div>
-  <div class="schedule-body">
-    <!-- Column 1 -->
-    <div class="schedule-column">
-        <div class="scheduled-game">
-          <img src="helmets/graham.gif" alt="Graham G-Men Helmet">
-              <div class="schedule-date">
-                 <p>august 25</p>
-                 <p class="team">graham vA</p>
-                 <p>7:00 pM</p>
-              </div>
+    <section class="schedule">
+      <div class="schedule-header">
+        <h1>2023 bluefield football</h1>
+        <h2>schedule</h2>
+        <img src="Images/beavers-logo.png" class="logo-img">
+      </div>
+      <div class="schedule-body">
+        <!-- Column 1 -->
+        <div class="schedule-column">
+          <div class="scheduled-game">
+            <img src="helmets/graham.gif" alt="Graham G-Men Helmet">
+            <div class="schedule-date">
+              <p>august 25</p>
+              <p class="team">graham vA</p>
+              <p>7:00 pM</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/princeton.gif" alt="Princeton Tigers Helmet">
+            <div class="schedule-date"> 
+              <p>september 1</p>
+              <p class="team">@ princeton</p>
+              <p>7:30 pM</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/greenbrier-east.gif" alt="Greenbrier East Helmet">
+            <div class="schedule-date">
+              <p>september 8</p>
+              <p class="team">@ greenbrier east</p>
+              <p>7:30 pM</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/beckley.gif" alt="Beckley Helmet">
+            <div class="schedule-date">
+              <p>september 16</p>
+              <p class="team">woodrow wilson</p>
+              <p>1:00 pM</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/independence.png" alt="Independence Helmet">
+            <div class="schedule-date">
+              <p>september 29</p>
+              <p class="team">Independence</p>
+              <p>7:30 pM</p>
+            </div>
+          </div>
         </div>
-        <div class="scheduled-game">
-          <img src="helmets/princeton.gif" alt="Princeton Tigers Helmet">
-              <div class="schedule-date"> 
-                 <p>september 1</p>
-                 <p class="team">@ princeton</p>
-                 <p>7:30 pM</p>
-              </div>
-        </div>
-        <div class="scheduled-game">
-          <img src="helmets/greenbrier-east.gif" alt="Greenbrier East Helmet">
-              <div class="schedule-date">
-                 <p>september 8</p>
-                 <p class="team">@ greenbrier east</p>
-                 <p>7:30 pM</p>
-              </div>
-        </div>
-        <div class="scheduled-game">
-          <img src="helmets/beckley.gif" alt="Beckley Helmet">
-              <div class="schedule-date">
-                 <p>september 16</p>
-                 <p class="team">woodrow wilson</p>
-                 <p>1:00 pM</p>
-              </div>
-        </div>
-        <div class="scheduled-game">
-          <img src="helmets/independence.png" alt="Independence Helmet">
-              <div class="schedule-date">
-                 <p>september 29</p>
-                 <p class="team">Independence</p>
-                 <p>7:30 pM</p>
-              </div>
-        </div>
-    </div>
 
-    <!-- Middle images column -->
-    <div class="schedule-imgs">
-      <img src="Images/beavers-logo.png">
-        <div class="listen">
-           <a href="https://player.amperwave.net/1808" target="_blank">
+        <!-- Middle images column -->
+        <div class="schedule-imgs">
+          <img src="Images/beavers-logo.png">
+          <div class="listen">
+            <a href="https://player.amperwave.net/1808" target="_blank">
               <img src="Images/listen.png" alt="listen">
-           </a>
-           <p>WKOY 100.9 FM</p>
-        </div>
-    </div> 
+            </a>
+            <p>WKOY 100.9 FM</p>
+          </div>
+        </div> 
 
-     <!-- Column 2 -->
-    <div class="schedule-column2">
-        <div class="scheduled-game">
-          <img src="helmets/pikeview helmet.png" alt="Pikeview Helmet">
+        <!-- Column 2 -->
+        <div class="schedule-column2">
+          <div class="scheduled-game">
+            <img src="helmets/pikeview helmet.png" alt="Pikeview Helmet">
+            <div class="schedule-date">
+              <p>october 6</p>
+              <p class="team">pikeview</p>
+              <p>7:30 pM</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/grayson county football helmet.png" alt="Grayson County Helmet">
+            <div class="schedule-date">
+              <p>october 13</p>
+              <p class="team">@ grayson county vA </p>
+              <p>7:00 pM</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/oak-hill.gif" alt="Oak Hill Helmet">
+            <div class="schedule-date">
+              <p>october 20</p>
+              <p class="team">@ oak hill</p>
+              <p>7:30 pM</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/giles football helmet.png" alt="Giles Helmet">
+            <div class="schedule-date">
+              <p>october 26</p>
+              <p class="team">giles vA</p>
+              <p>7:30 pM</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/james-monroe.gif" alt="James Monroe Helmet">
               <div class="schedule-date">
-                 <p>october 6</p>
-                 <p class="team">pikeview</p>
-                 <p>7:30 pM</p>
+                <p>november 3</p>
+                <p class="team">@ james monroe</p>
+                <p>7:30 pM</p>
               </div>
+          </div>
         </div>
-        <div class="scheduled-game">
-          <img src="helmets/grayson county football helmet.png" alt="Grayson County Helmet">
-              <div class="schedule-date">
-                 <p>october 13</p>
-                 <p class="team">@ grayson county vA </p>
-                 <p>7:00 pM</p>
-              </div>
-        </div>
-        <div class="scheduled-game">
-          <img src="helmets/oak-hill.gif" alt="Oak Hill Helmet">
-              <div class="schedule-date">
-                 <p>october 20</p>
-                 <p class="team">@ oak hill</p>
-                 <p>7:30 pM</p>
-              </div>
-        </div>
-        <div class="scheduled-game">
-          <img src="helmets/giles football helmet.png" alt="Giles Helmet">
-              <div class="schedule-date">
-                 <p>october 26</p>
-                 <p class="team">giles vA</p>
-                 <p>7:30 pM</p>
-              </div>
-        </div>
-        <div class="scheduled-game">
-          <img src="helmets/james-monroe.gif" alt="James Monroe Helmet">
-              <div class="schedule-date">
-                 <p>november 3</p>
-                 <p class="team">@ james monroe</p>
-                 <p>7:30 pM</p>
-              </div>
-        </div>
-    </div>
-  </div>
-  <div class="listen-tablet">
-        <a href="https://v7player.wostreaming.net/8072" target="_blank">
-           <img src="Images/listen.png" alt="listen">
-        </a>
-        <p>WHIS 1440AM and 97.3FM</p>
-  </div>
-</section>
-
-<section class="icon-section">
-  <div class="heading-div">
-     <div class="icon-div">
-        <!--<i class="fas fa-football-ball fa-7x fa-flip-horizontal"></i>-->
-     </div>
-     <h1>Pride and Tradition</h1>
-     <div class="icon-div">
-        <!--<i class="fas fa-football-ball fa-7x"></i>-->
-     </div>
-  </div>  
-     <img src="Images/beavers.png">
-     <!--<img src="Images/we believe text-2.png" class="believe-img" alt="We Believe">-->
-     <h1 class="believe">We Believe</h1>
-</section>
-
-<!-- Banner -->
-<section class="banner">
-  <div class="banner-text"></div>
-</section>
-
-<section class="icons-section">
-  <div class="social-icons">
-    <a href="https://www.facebook.com/Bluefield-Beavers-Football-112296280606404" target="_blank">
-      <i class="fab fa-facebook-square fa-2x"></i>
-    </a>
-    <a href="https://twitter.com/beavernationfb?lang=en" target="_blank">
-      <i class="fab fa-twitter-square fa-2x"></i>
-    </a>
-    <a href="https://www.youtube.com/user/fsimon12/videos" target="_blank">
-      <i class="fab fa-youtube-square fa-2x"></i>
-    </a>
-  </div>
-</section>
-
-<!-- Footer -->
-<section class="footer">
-  <div class="footer-top">
-    <h4>External Links</h4>
-    <div class="links-container">
-      <div class="link">
-          <a href="https://wvmetronews.com/high-school-football-scores/" target="_blank">
-            <img src="Images/metronews.jpg" alt="Metro News Logo">
-            <p>WV Metro News Scoreboard </p>
+        <div class="listen-tablet">
+          <a href="https://v7player.wostreaming.net/8072" target="_blank">
+            <img src="Images/listen.png" alt="listen">
           </a>
+          <p>WHIS 1440AM and 97.3FM</p>
+        </div>
       </div>
-      <div class="link">
-        <a href="http://fourseasonsfootball.com/wv.html" target="_blank">
-          <img src="Images/four-seasons.jpg" alt="Four Seasons Logo">
-          <p>Four Seasons Football Website</p>
-        </a>
-      </div>
-      <div class="link">
-        <a href="https://www.wvssac.org/" target="_blank">
-        <img src="Images/ssac.jpg" alt="WVSSAC Logo">
-        <p>WVSSAC Website</p>
-        </a>
-      </div>
-    </div>
-    <div class="footer-line"></div>
-    <div class="footer-motto">
-      <div class="address">
-        <h3>Bluefield High School</h3>
-        <img src="Images/bhs.jpg" alt="Bluefield High School">
-        <p>535 W Cumberland Rd</p>
-        <p>Bluefield, WV 24701</p>
-      </div>
-      <div class="footer-image">
-        <h2>Home of the Beavers</h2>
-        <img src="Images/beavers-logo.png" alt="Beavers Logo">
-      </div>
-      <div class="address">
-        <h3>Mitchell Stadium</h3>
-        <img src="Images/mitchell-4.jpg" alt="Mitchell Stadium">
-        <p>1780 Stadium Drive</p>
-        <p>Bluefield, WV 24701</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy 2023 Bluefield Beavers Football</p>
-    </div>
-  </div>
-  </section>
+    </section>
 
-<!-- Javascript --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/countdown.js"></script>
-<script src="js/nav.js"></script>
-<script src="js/lightbox-plus-jquery.min.js"></script>
-<script src="js/audio.js"></script>
- </body>
+    <section class="icon-section">
+      <div class="heading-div">
+        <div class="icon-div">
+          <!--<i class="fas fa-football-ball fa-7x fa-flip-horizontal"></i>-->
+        </div>
+        <h1>Pride and Tradition</h1>
+        <div class="icon-div">
+          <!--<i class="fas fa-football-ball fa-7x"></i>-->
+        </div>
+      </div>  
+      <img src="Images/beavers.png">
+      <!--<img src="Images/we believe text-2.png" class="believe-img" alt="We Believe">-->
+      <h1 class="believe">We Believe</h1>
+    </section>
+
+    <!-- Banner -->
+    <section class="banner">
+      <div class="banner-text"></div>
+    </section>
+
+    <section class="icons-section">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/Bluefield-Beavers-Football-112296280606404" target="_blank">
+          <i class="fab fa-facebook-square fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/beavernationfb?lang=en" target="_blank">
+          <i class="fab fa-twitter-square fa-2x"></i>
+        </a>
+        <a href="https://www.youtube.com/user/fsimon12/videos" target="_blank">
+          <i class="fab fa-youtube-square fa-2x"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="footer-top">
+        <h4>External Links</h4>
+        <div class="links-container">
+          <div class="link">
+            <a href="https://wvmetronews.com/high-school-football-scores/" target="_blank">
+              <img src="Images/metronews.jpg" alt="Metro News Logo">
+              <p>WV Metro News Scoreboard </p>
+            </a>
+          </div>
+          <div class="link">
+            <a href="http://fourseasonsfootball.com/wv.html" target="_blank">
+              <img src="Images/four-seasons.jpg" alt="Four Seasons Logo">
+              <p>Four Seasons Football Website</p>
+            </a>
+          </div>
+          <div class="link">
+            <a href="https://www.wvssac.org/" target="_blank">
+              <img src="Images/ssac.jpg" alt="WVSSAC Logo">
+              <p>WVSSAC Website</p>
+            </a>
+          </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="footer-motto">
+          <div class="address">
+            <h3>Bluefield High School</h3>
+            <img src="Images/bhs.jpg" alt="Bluefield High School">
+            <p>535 W Cumberland Rd</p>
+            <p>Bluefield, WV 24701</p>
+          </div>
+          <div class="footer-image">
+            <h2>Home of the Beavers</h2>
+            <img src="Images/beavers-logo.png" alt="Beavers Logo">
+          </div>
+          <div class="address">
+            <h3>Mitchell Stadium</h3>
+            <img src="Images/mitchell-4.jpg" alt="Mitchell Stadium">
+            <p>1780 Stadium Drive</p>
+            <p>Bluefield, WV 24701</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy 2023 Bluefield Beavers Football</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Javascript --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/audio.js"></script>
+  </body>
 </html>
