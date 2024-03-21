@@ -150,6 +150,10 @@ body {
         margin-top: 10px;
     }
 
+    .listen img {
+        width: 50%;
+    }
+
     .schedule-body {
         flex-direction: column;
     }
