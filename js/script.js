@@ -15,3 +15,10 @@ btn.addEventListener('click', function () {
 
    event.preventDefault()
 });
+
+link.forEach(n => n.addEventListener('click', closeMenu));
+
+function closeMenu() {
+   hamburger.classList.toggle('cross');
+   links.classList.remove('show-links');
+}
