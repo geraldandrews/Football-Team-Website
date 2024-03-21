@@ -89,8 +89,10 @@
     }
  
     .card {
-       width: 80%;
+       width: 100%;
        flex-direction: column;
+       border-radius: 0px;
+       box-shadow: none;
     }
  
     .card img {
