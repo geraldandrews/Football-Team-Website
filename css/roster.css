@@ -52,7 +52,7 @@
     border: 1px solid rgb(190, 190, 190);
  }
  
- @media (max-width: 817px) {
+ @media (max-width: 820px) {
     .roster-beavers-logo {
        width: 100%;
     }
