@@ -1,5 +1,5 @@
 # Highschool Football Website
-### Live Site: http://www.bhsbeaversfootball.com/
+### Live Site: http://www.bhsbeaversfootball.netlify.app/
 
 ### Project Description: Personal
 ### Programs Used: HTML, CSS, JavaScript, and lightbox JS
