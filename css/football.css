@@ -286,9 +286,9 @@ nav {
 }
 
 .opponent-text {
-   color: var(--JamesMonroe);
+   color: var(--Graham-Red);
    font-weight: 100;
-   text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+   text-shadow: -1px 0 #d9a827, 0 1px #d9a827, 1px 0 #d9a827, 0 -1px #d9a827;
 }
 
 .team-card {
