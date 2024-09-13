@@ -286,9 +286,9 @@ nav {
 }
 
 .opponent-text {
-   color: var(--Greenbrier-East-Green);
+   color: var(--Beckley);
    font-weight: 100;
-   text-shadow: -1px 0 #fec425, 0 1px #fec425, 1px 0 #fec425, 0 -1px #fec425;
+   text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 
 .team-card {
