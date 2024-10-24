@@ -286,7 +286,7 @@ nav {
 }
 
 .opponent-text {
-   color: var(--grayson-county);
+   color: var(--OakHill);
    font-weight: 100;
    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
