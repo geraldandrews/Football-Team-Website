@@ -257,6 +257,10 @@ body {
 }
 
 @media (max-width: 600px) {
+.schedule {
+    width: 95%;
+}
+    
 .icon-div .fas {
     font-size: 3rem;
 }
