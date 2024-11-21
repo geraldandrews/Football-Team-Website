@@ -159,7 +159,7 @@ body {
     }
 
     .schedule-column, .schedule-column2 {
-        width: 70%;
+        width: 95%;
     }
 
     .schedule-imgs {
@@ -175,12 +175,6 @@ body {
     
     .record-text h2 {
         font-size: 1.5rem ;
-    }
-}
-
-@media (max-width: 400px) {
-    .schedule-column, .schedule-column2 {
-        width: 95%;
     }
 }
 
