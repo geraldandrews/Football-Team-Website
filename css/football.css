@@ -9,6 +9,8 @@
 
 :root {
    --Beckley: #551111;
+   --FrankfortLight: #97d2ff;
+   --FrankfortDark: #00183d;
    --Graham: #d9a827;
    --Graham-Red: #6b0e16;
    --Giles: #ff001b;
@@ -287,9 +289,9 @@ nav {
 }
 
 .opponent-text {
-   color: var(--SouthHarrison);
+   color: var(--FrankfortDark);
    font-weight: 100;
-   text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+   text-shadow: -1px 0 #97d2ff, 0 1px #97d2ff, 1px 0 #97d2ff, 0 -1px #97d2ff;
 }
 
 .team-card {
