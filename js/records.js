@@ -1,12 +1,10 @@
 const search = document.getElementById('search');
 const matchList = document.getElementById('match-list'); 
 
-// Search records.json and filter it
 const searchRecords = async searchText => {
     const res = await fetch('records.json');
     const records = await res.json();
 
-// Get matches to current text input
 let matches = records.filter(record => {
     const regex = new RegExp(`^${searchText}`, 'gi');
     return record.year.match(regex); //|| record.year.match(regex);
@@ -21,7 +19,6 @@ if (searchText.length === 0) {
 outputHtml(matches);
 };
 
-// Show results in HTML
 const outputHtml = matches => {
     if (matches.length === 0) { 
         matchList.innerHTML = '<p>No results found.</p>'
