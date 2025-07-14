@@ -25,7 +25,7 @@ outputHtml(matches);
 const outputHtml = matches => {
     if (matches.length === 0) { 
         matchList.innerHTML = '<p>No results found.</p>'
-    } else {                                                                           //if (matches.length > 0) {
+    } else {                                                                         
         const html = matches.map(match =>
             `<div class="records">
                 <div class="card">
