@@ -1,8 +1,8 @@
 [
     {
         "year": "2025",
-        "record": "0-0",
-        "one": { "date": "8/29", "opponent": "Graham VA", "result": "-" }, 
+        "record": "1-0",
+        "one": { "date": "8/29", "opponent": "Graham VA", "result": "20-10 W" }, 
         "two": { "date": "9/5", "opponent": "@Princeton", "result": "-" },
         "three": { "date": "9/12", "opponent": "@James Monroe", "result": "-" },
         "four": { "date": "9/19", "opponent": "Woodrow Wilson", "result": "-" },
@@ -2160,4 +2160,5 @@
         "fifteen": { "date": "-", "opponent": "-", "result": "-" }
     }
 ]
+
    
