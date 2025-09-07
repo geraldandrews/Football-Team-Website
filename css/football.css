@@ -288,7 +288,7 @@ nav {
 }
 
 .opponent-text {
-   color: var(--Princeton);
+   color: var(--JamesMonroe);
    font-weight: 100;
    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
@@ -779,4 +779,5 @@ h1 {
 h2 {
    font-family: 'Orbitron', sans-serif;
 }
+
 
