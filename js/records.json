@@ -4,7 +4,7 @@
         "record": "1-1",
         "one": { "date": "8/29", "opponent": "Graham VA", "result": "20-10 W" }, 
         "two": { "date": "9/5", "opponent": "@Princeton", "result": "6-51 L" },
-        "three": { "date": "9/12", "opponent": "@James Monroe", "result": "-" },
+        "three": { "date": "9/12", "opponent": "@James Monroe", "result": "35-27 W" },
         "four": { "date": "9/19", "opponent": "Woodrow Wilson", "result": "-" },
         "five": { "date": "9/26", "opponent": "@Independence", "result": "-" },
         "six": { "date": "10/3", "opponent": "@George Wythe", "result": "-" },
@@ -2162,4 +2162,5 @@
 ]
 
    
+
 
