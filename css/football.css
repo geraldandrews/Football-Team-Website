@@ -11,6 +11,7 @@
    --FrankfortLight: #97d2ff;
    --FrankfortDark: #00183d;
    --GeorgeWythe: #590a27;
+   --GeorgeWythe-grey: #a3a0a7;
    --Graham: #d9a827;
    --Graham-Red: #6b0e16;
    --Giles: #ff001b;
@@ -289,7 +290,7 @@ nav {
 }
 
 .opponent-text {
-   color: var(--Independence);
+   color: var(--GeorgeWythe);
    font-weight: 100;
    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
@@ -780,6 +781,7 @@ h1 {
 h2 {
    font-family: 'Orbitron', sans-serif;
 }
+
 
 
 
