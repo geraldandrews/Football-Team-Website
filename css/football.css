@@ -440,6 +440,10 @@ smalltext {
       display: block;
    }
 
+   .teams {
+      width: 100%;
+   }
+
   .team-card img {
      width: 75%;
   }
@@ -781,6 +785,7 @@ h1 {
 h2 {
    font-family: 'Orbitron', sans-serif;
 }
+
 
 
 
