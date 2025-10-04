@@ -7,7 +7,7 @@
         "three": { "date": "9/12", "opponent": "@James Monroe", "result": "35-27 W" },
         "four": { "date": "9/19", "opponent": "Woodrow Wilson", "result": "34-28 W" },
         "five": { "date": "9/26", "opponent": "@Independence", "result": "10-31 L" },
-        "six": { "date": "10/3", "opponent": "@George Wythe", "result": "40-21 W" },
+        "six": { "date": "10/3", "opponent": "@George Wythe VA", "result": "40-21 W" },
         "seven": { "date": "10/10", "opponent": "@Nicholas County", "result": "-" },  
         "eight": { "date": "10/16", "opponent": "Pikeview", "result": "-" },
         "nine": { "date": "10/24", "opponent": "@Greenbrier East", "result": "-" },
@@ -2162,6 +2162,7 @@
 ]
 
    
+
 
 
 
