@@ -291,9 +291,9 @@ nav {
 }
 
 .opponent-text {
-   color: var(--NicholasCounty);
+   color: var(--Pikeview);
    font-weight: 100;
-   text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+   text-shadow: -1px 0 #bb2222, 0 1px #bb2222, 1px 0 #bb2222, 0 -1px #bb2222;
 }
 
 .team-card {
@@ -786,6 +786,7 @@ h1 {
 h2 {
    font-family: 'Orbitron', sans-serif;
 }
+
 
 
 
