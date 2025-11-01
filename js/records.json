@@ -1,7 +1,7 @@
 [
     {
         "year": "2025",
-        "record": "7-2",
+        "record": "8-2",
         "one": { "date": "8/29", "opponent": "Graham VA", "result": "20-10 W" }, 
         "two": { "date": "9/5", "opponent": "@Princeton", "result": "6-51 L" },
         "three": { "date": "9/12", "opponent": "@James Monroe", "result": "35-27 W" },
@@ -11,7 +11,7 @@
         "seven": { "date": "10/10", "opponent": "@Nicholas County", "result": "36-7 W" },  
         "eight": { "date": "10/16", "opponent": "Pikeview", "result": "39-0 W" },
         "nine": { "date": "10/24", "opponent": "@Greenbrier East", "result": "27-13 W" },
-        "ten": { "date": "10/31", "opponent": "@Riverview", "result": "-" },
+        "ten": { "date": "10/31", "opponent": "@Riverview", "result": "48-0 W" },
         "playoff": "--",
         "eleven": { "date": "-", "opponent": "-", "result": "-" },
         "twelve": { "date": "-", "opponent": "-", "result": "-" },
@@ -2162,6 +2162,7 @@
 ]
 
    
+
 
 
 
