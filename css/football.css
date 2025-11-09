@@ -303,11 +303,11 @@ nav {
 }
 
 .team-card img {
-   width: 15%;
+   width: 25%;
 }
 
 .team-card .opponent-img {
-   width: 15%;
+   width: 25%;
 }
 
 .card-text {
@@ -452,7 +452,7 @@ smalltext {
   }
 
   .team-card .opponent-img {
-     width: 50%;
+     width: 45%;
   }
 
   .team-card h1 {
@@ -788,6 +788,7 @@ h1 {
 h2 {
    font-family: 'Orbitron', sans-serif;
 }
+
 
 
 
