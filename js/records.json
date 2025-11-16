@@ -14,7 +14,7 @@
         "ten": { "date": "10/31", "opponent": "@Riverview", "result": "48-0 W" },
         "playoff": "PLAYOFFS",
         "eleven": { "date": "11/15", "opponent": "Oak Glen", "result": "54-7 W" },
-        "twelve": { "date": "-", "opponent": "-", "result": "-" },
+        "twelve": { "date": "11/21", "opponent": "Midland Trail", "result": "-" },
         "thirteen": { "date": "-", "opponent": "-", "result": "-" },
         "fourteen": { "date": "-", "opponent": "--", "result": "-" },
         "fifteen": { "date": "-", "opponent": "-", "result": "-" }
@@ -2162,6 +2162,7 @@
 ]
 
    
+
 
 
 
