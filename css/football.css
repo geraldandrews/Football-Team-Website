@@ -20,6 +20,7 @@
    --Greenbrier-East-Yellow: #fec425;
    --Independence: #002244;
    --JamesMonroe: #492e62;
+   --MidlandTrail: #131f45;
    --MingoCentral: #64b5f4;
    --NicholasCounty: #b6ac72;
    --NorthMarion: #bbbbbb;
@@ -293,9 +294,9 @@ nav {
 }
 
 .opponent-text {
-   color: var(--OakGlen);
+   color: var(--MidlandTrail);
    font-weight: 100;
-   text-shadow: -1px 0 #ffcc00, 0 1px #ffcc00, 1px 0 #ffcc00, 0 -1px #ffcc00;
+   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
 .team-card {
@@ -307,7 +308,7 @@ nav {
 }
 
 .team-card .opponent-img {
-   width: 25%;
+   width: 35%;
 }
 
 .card-text {
@@ -788,6 +789,7 @@ h1 {
 h2 {
    font-family: 'Orbitron', sans-serif;
 }
+
 
 
 
