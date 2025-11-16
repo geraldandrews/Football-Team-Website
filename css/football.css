@@ -296,7 +296,7 @@ nav {
 .opponent-text {
    color: var(--MidlandTrail);
    font-weight: 100;
-   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+   text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 
 .team-card {
@@ -308,7 +308,7 @@ nav {
 }
 
 .team-card .opponent-img {
-   width: 35%;
+   width: 45%;
 }
 
 .card-text {
@@ -453,7 +453,7 @@ smalltext {
   }
 
   .team-card .opponent-img {
-     width: 45%;
+     width: 55%;
   }
 
   .team-card h1 {
@@ -789,6 +789,7 @@ h1 {
 h2 {
    font-family: 'Orbitron', sans-serif;
 }
+
 
 
 
