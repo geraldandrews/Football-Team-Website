@@ -475,6 +475,24 @@ smalltext {
    }
 }
 
+/* Playoff Bracket */
+.playoff-bracket {
+   width: 75%;
+   margin: auto;
+   padding: 0;
+}
+
+.playoff-bracket img {
+   width: 100%;
+   display: block;
+}
+
+@media (max-width: 820px) {
+   .playoff-bracket {
+      width: 100%;
+   }
+}
+
 /* Banner */
 .banner {
    background: url('../Images/banner-pic.jpg') no-repeat center center/cover;
@@ -789,6 +807,7 @@ h1 {
 h2 {
    font-family: 'Orbitron', sans-serif;
 }
+
 
 
 
