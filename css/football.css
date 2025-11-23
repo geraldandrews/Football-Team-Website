@@ -26,6 +26,7 @@
    --NorthMarion: #bbbbbb;
    --OakGlen: #62ccff;
    --OakHill: #cc0000;
+   --PhilipBarbour: #091837;
    --Pikeview: #000;
    --Pikeview-Red: #bb2222;
    --PointPleasant: #eb0700;
@@ -294,7 +295,7 @@ nav {
 }
 
 .opponent-text {
-   color: var(--MidlandTrail);
+   color: var(--PhilipBarbour);
    font-weight: 100;
    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
@@ -807,6 +808,7 @@ h1 {
 h2 {
    font-family: 'Orbitron', sans-serif;
 }
+
 
 
 
