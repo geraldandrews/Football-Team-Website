@@ -15,7 +15,7 @@
         "playoff": "PLAYOFFS",
         "eleven": { "date": "11/15", "opponent": "Oak Glen", "result": "54-7 W" },
         "twelve": { "date": "11/21", "opponent": "Midland Trail", "result": "45-7 W" },
-        "thirteen": { "date": "-", "opponent": "Philip Barbour", "result": "-" },
+        "thirteen": { "date": "11/29", "opponent": "Philip Barbour", "result": "-" },
         "fourteen": { "date": "-", "opponent": "--", "result": "-" },
         "fifteen": { "date": "-", "opponent": "-", "result": "-" }
     },
@@ -2162,6 +2162,7 @@
 ]
 
    
+
 
 
 
