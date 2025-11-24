@@ -454,7 +454,7 @@ smalltext {
   }
 
   .team-card .opponent-img {
-     width: 75%;
+     width: 65%;
   }
 
   .team-card h1 {
@@ -808,6 +808,7 @@ h1 {
 h2 {
    font-family: 'Orbitron', sans-serif;
 }
+
 
 
 
