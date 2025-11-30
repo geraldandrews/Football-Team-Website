@@ -17,7 +17,7 @@
         "twelve": { "date": "11/21", "opponent": "Midland Trail", "result": "45-7 W" },
         "thirteen": { "date": "11/29", "opponent": "Philip Barbour", "result": "56-27 W" },
         "championship": "CHAMPIONSHIP",
-        "fifteen": { "date": "12/6", "opponent": "Frankfort", "result": "-" }
+        "fifteen": { "date": "12/6", "opponent": "Frankfort(N)", "result": "-" }
     },
     {
         "year": "2024",
@@ -2162,6 +2162,7 @@
 ]
 
    
+
 
 
 
