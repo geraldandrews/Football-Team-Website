@@ -295,9 +295,9 @@ nav {
 }
 
 .opponent-text {
-   color: var(--PhilipBarbour);
+   color: var(--FrankfortLight);
    font-weight: 100;
-   text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+   text-shadow: -1px 0 #00183d, 0 1px #00183d, 1px 0 #00183d, 0 -1px #00183d;
 }
 
 .team-card {
@@ -808,6 +808,7 @@ h1 {
 h2 {
    font-family: 'Orbitron', sans-serif;
 }
+
 
 
 
