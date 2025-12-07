@@ -36,7 +36,7 @@
         "eleven": { "date": "11/22", "opponent": "South Harrison", "result": "20-18 W" },
         "twelve": { "date": "11/30", "opponent": "@Frankfort", "result": "6-27 L" },
         "thirteen": { "date": "-", "opponent": "-", "result": "-" },
-        "fourteen": { "date": "-", "opponent": "--", "result": "" },
+        "fourteen": { "date": "-", "opponent": "--", "result": "-" },
         "fifteen": { "date": "-", "opponent": "-", "result": "-" }
     },
     {
@@ -2162,6 +2162,7 @@
 ]
 
    
+
 
 
 
