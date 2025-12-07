@@ -1,7 +1,7 @@
 [
     {
         "year": "2025",
-        "record": "11-2",
+        "record": "11-3",
         "one": { "date": "8/29", "opponent": "Graham VA", "result": "20-10 W" }, 
         "two": { "date": "9/5", "opponent": "@Princeton", "result": "6-51 L" },
         "three": { "date": "9/12", "opponent": "@James Monroe", "result": "35-27 W" },
@@ -17,7 +17,7 @@
         "twelve": { "date": "11/21", "opponent": "Midland Trail", "result": "45-7 W" },
         "thirteen": { "date": "11/29", "opponent": "Philip Barbour", "result": "56-27 W" },
         "fourteen": { "date": "-", "opponent": "CHAMPIONSHIP", "result": "-" },
-        "fifteen": { "date": "12/6", "opponent": "Frankfort(N)", "result": "-" }
+        "fifteen": { "date": "12/6", "opponent": "Frankfort(N)", "result": "42-49 L" }
     },
     {
         "year": "2024",
@@ -2162,6 +2162,7 @@
 ]
 
    
+
 
 
 
