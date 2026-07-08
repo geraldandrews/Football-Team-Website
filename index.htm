@@ -54,52 +54,137 @@
       </div>
     </section>
 
-    <!-- Season Recap -->
-    <section class="schedule">
-      <div class="schedule-header">
-        <h1>2025 WV AA State Runner Up</h1>
+    <!-- Countdown Timer -->
+    <section class="countdown">
+      <h1>Gametime Countdown</h1> 
+      <div id="clockdiv"> 
+        <div> 
+          <span class="days" id="day"></span> 
+          <div class="smalltext">Days</div> 
+        </div> 
+        <div>  
+          <span class="hours" id="hour"></span> 
+          <div class="smalltext">Hours</div> 
+        </div> 
+        <div> 
+          <span class="minutes" id="minute"></span> 
+          <div class="smalltext">Minutes</div> 
+        </div> 
+        <div> 
+          <span class="seconds" id="second"></span> 
+          <div class="smalltext">Seconds</div> 
+        </div> 
+      </div> 
+      <div class="teams">
+        <div class="team-card">
+          <img src="Images/beavers-logo.png">
+          <h1>Bluefield</h1>
+          <h2>Beavers</h2>
+        </div>
+        <span class="vs">vs</span>
+        <div class="team-card">
+          <img src="logos/frankfort.png" class="opponent-img">
+          <h1><span class="opponent-text">Frankfort</span></h1>
+          <h2>Falcons</h2>
+        </div>
       </div>
-      <div class="schedule-container">
-        <div class="schedule-header">
-          <h2>Regular Season</h2>
-        </div>
-        <div class="regular-season">
-          <div class="column">
-            <img src="banners/graham.png" alt="Graham G-Men Banner">
-            <img src="banners/princeton.png" alt="Princeton Tigers Banner">
-            <img src="banners/james monroe.png" alt="James Monroe Banner">
-            <img src="banners/beckley.png" alt="Beckley Banner">
-            <img src="banners/independence.png" alt="Independence Banner">
+      <div class="date"> 
+        <h2>WVSSAC AA State Championship</h2>
+        <h3>Laidley Field - Charleston, WV</h3>
+        <p>Saturday December 6th, 2025</p>
+        <p>12:00 PM</p>
+      </div>
+
+     <div class="schedule-body">
+        <!-- Column 1 -->
+        <div class="schedule-column">
+          <div class="scheduled-game">
+            <img src="helmets/graham.gif" alt="Graham G-Men Helmet">
+            <div class="schedule-date">
+              <p>August 29</p>
+              <p class="team">Graham VA</p>
+              <p>result: 20-12 w</p>
+            </div>
           </div>
-          <div class="column-2">
-            <img src="banners/george wythe.png" alt="George Wythe Banner">
-            <img src="banners/nicholas county.png" alt="Nicholas County Banner">
-            <img src="banners/pikeview.png" alt="Pikeview Banner">
-            <img src="banners/greenbrier east.png" alt="Greenbrier East Banner">
-            <img src="banners/riverview.png" alt="Riverview Banner">
+          <div class="scheduled-game">
+            <img src="helmets/princeton.gif" alt="Princeton Tigers Helmet">
+            <div class="schedule-date"> 
+              <p>September 5</p>
+              <p class="team">@Princeton</p>
+              <p>result: 6-51 l</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/james-monroe.gif" alt="James Monroe Helmet">
+            <div class="schedule-date">
+              <p>September 12</p>
+              <p class="team">@James Monroe</p>
+              <p>result: 35-27 w</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/beckley.gif" alt="Beckley Helmet">
+            <div class="schedule-date">
+              <p>September 19</p>
+              <p class="team">Woodrow Wilson</p>
+              <p>result: 34-28 w</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/independence.png" alt="Independence Helmet">
+            <div class="schedule-date">
+              <p>September 26</p>
+              <p class="team">@Independence</p>
+              <p>result: 10-31 l</p>
+            </div>
           </div>
         </div>
 
-        <div class="schedule-header">
-          <h2>Playoffs</h2>
-        </div>
-
-        <div class="playoffs">
-          <img src="banners/oak glen.png" alt="Oak Glen Banner">
-          <img src="banners/midland trail.png" alt="Midland Trail Banner">
-          <img src="banners/philip barbour.png" alt="philip Barbour Banner">
-        </div>
-
-        <div class="schedule-header">
-          <h2>Championship</h2>
-        </div>
-
-        <div class="playoffs">
-          <img src="banners/frankfort.png" alt="Frankfort Banner">
+        <!-- Column 2 -->
+        <div class="schedule-column2">
+          <div class="scheduled-game">
+            <img src="helmets/george wythe helmet.png" alt="George Wythe Helmet">
+            <div class="schedule-date">
+              <p>October 3</p>
+              <p class="team">@George Wythe VA</p>
+              <p>result: 40-21 w</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/nchelmet.png" alt="Nicholas County Helmet">
+            <div class="schedule-date">
+              <p>October 10</p>
+              <p class="team">@Nicholas County</p>
+              <p>result: 36-7 w</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/pikeview helmet.png" alt="Pikeview Helmet">
+            <div class="schedule-date">
+              <p>October 15</p>
+              <p class="team">Pikeview</p>
+              <p>result: 39-0 w</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/greenbrier-east.gif" alt="Greenbrier East Helmet">
+            <div class="schedule-date">
+              <p>October 24</p>
+              <p class="team">@Greenbrier East</p>
+              <p>result: 27-13 w</p>
+            </div>
+          </div>
+          <div class="scheduled-game">
+            <img src="helmets/riverview helmet.png" alt="Riverview Helmet">
+              <div class="schedule-date">
+                <p>October 31</p>
+                <p class="team">@Riverview</p>
+                <p>result: 48-0 w</p>
+              </div>
+          </div>
         </div>
       </div>
     </section>
-
 
     <section class="icon-section">
       <div class="heading-div">
