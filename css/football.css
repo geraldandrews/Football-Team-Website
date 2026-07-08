@@ -295,9 +295,9 @@ nav {
 }
 
 .opponent-text {
-   color: var(--FrankfortLight);
+   color: var(--Graham-Red);
    font-weight: 100;
-   text-shadow: -1px 0 #00183d, 0 1px #00183d, 1px 0 #00183d, 0 -1px #00183d;
+   text-shadow: -1px 0 #d9a827, 0 1px #d9a827, 1px 0 #d9a827, 0 -1px #d9a827;
 }
 
 .team-card {
