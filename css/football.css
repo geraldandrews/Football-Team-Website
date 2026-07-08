@@ -285,6 +285,7 @@ nav {
 .countdown h1 {
    font-size: 2rem;
    color: #fff;
+   text-shadow: none;
 }
 
 .teams {
