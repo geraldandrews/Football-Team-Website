@@ -1,4 +1,24 @@
 [
+     {
+        "year": "2026",
+        "record": "0-1",
+        "one": { "date": "8/28", "opponent": "@Graham VA", "result": "33-40 L" }, 
+        "two": { "date": "9/4", "opponent": "Princeton", "result": "-" },
+        "three": { "date": "9/11", "opponent": "James Monroe", "result": "-" },
+        "four": { "date": "9/18", "opponent": "@Ridgeview VA", "result": "-" },
+        "five": { "date": "9/25", "opponent": "Independence", "result": "-" },
+        "six": { "date": "10/2", "opponent": "George Wythe VA", "result": "-" },
+        "seven": { "date": "10/9", "opponent": "Nicholas County", "result": "-" },  
+        "eight": { "date": "10/16", "opponent": "@Fairmont Senior", "result": "-" },
+        "nine": { "date": "10/23", "opponent": "@Greenbrier East", "result": "-" },
+        "ten": { "date": "10/30", "opponent": "Riverview", "result": "-" },
+        "playoff": "",
+        "eleven": { "date": "", "opponent": "", "result": "" },
+        "twelve": { "date": "", "opponent": "", "result": "" },
+        "thirteen": { "date": "", "opponent": "", "result": "" },
+        "fourteen": { "date": "", "opponent": "", "result": "" },
+        "fifteen": { "date": "", "opponent": "", "result": "" }
+    },
     {
         "year": "2025",
         "record": "11-3",
