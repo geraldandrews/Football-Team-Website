@@ -301,7 +301,7 @@ nav {
 }
 
 .team-card {
-   width: 25%;
+   width: 30%;
 }
 
 .team-card img {
@@ -309,7 +309,7 @@ nav {
 }
 
 .team-card .opponent-img {
-   width: 35%;
+   width: 25%;
 }
 
 .card-text {
