@@ -451,7 +451,7 @@
         "seven": { "date": "10/15", "opponent": "@Mount View", "result": "17-14 W" },  
         "eight": { "date": "10/22", "opponent": "Herbert Hoover", "result": "41-10 W" },
         "nine": { "date": "10/29", "opponent": "@James Monroe", "result": "34-0 W" },
-        "ten": { "date": "11/5", "opponent": "@Lee VA", "result": "42-14 L" },
+        "ten": { "date": "11/5", "opponent": "@Lee VA", "result": "42-14 W" },
         "playoff": "PLAYOFFS",
         "eleven": { "date": "11/13", "opponent": "Mount View", "result": "58-0 W" },
         "twelve": { "date": "11/20", "opponent": "Keyser", "result": "36-7 W" },
