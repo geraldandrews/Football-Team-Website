@@ -8,6 +8,7 @@
 
 :root {
    --Beckley: #551111;
+   --Fairmont: #00529c;
    --FrankfortLight: #97d2ff;
    --FrankfortDark: #00183d;
    --GeorgeWythe: #590a27;
@@ -295,7 +296,7 @@ nav {
 }
 
 .opponent-text {
-   color: var(--NicholasCounty);
+   color: var(--Fairmont);
    font-weight: 100;
    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
