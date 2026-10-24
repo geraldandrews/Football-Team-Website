@@ -439,6 +439,10 @@ smalltext {
    .team-card {
       width: 45%;
    }
+
+   .team-card .opponent-img {
+     width: 70%;
+  }
 }
 
 @media (max-width: 670px) {
@@ -456,10 +460,6 @@ smalltext {
 
   .team-card img {
      width: 75%;
-  }
-
-  .team-card .opponent-img {
-     width: 70%;
   }
 
   .team-card h1 {
