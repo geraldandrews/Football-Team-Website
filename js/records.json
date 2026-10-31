@@ -1,7 +1,7 @@
 [
      {
         "year": "2026",
-        "record": "7-2",
+        "record": "8-2",
         "one": { "date": "8/28", "opponent": "@Graham VA", "result": "33-40 L" }, 
         "two": { "date": "9/4", "opponent": "Princeton", "result": "30-32 L" },
         "three": { "date": "9/11", "opponent": "James Monroe", "result": "60-14 W" },
@@ -11,7 +11,7 @@
         "seven": { "date": "10/9", "opponent": "Nicholas County", "result": "62-7 W" },  
         "eight": { "date": "10/16", "opponent": "@Fairmont Senior", "result": "40-7 W" },
         "nine": { "date": "10/23", "opponent": "@Greenbrier East", "result": "61-12 W" },
-        "ten": { "date": "10/30", "opponent": "Riverview", "result": "-" },
+        "ten": { "date": "10/30", "opponent": "Riverview", "result": "76-0 W" },
         "playoff": "--",
         "eleven": { "date": "-", "opponent": "-", "result": "-" },
         "twelve": { "date": "-", "opponent": "-", "result": "-" },
