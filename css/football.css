@@ -347,7 +347,6 @@ nav {
 
 .date h2 {
    font-family: 'Roboto', sans-serif;
-   font-size: 1.2rem;
 }
 
 .date h3 {
@@ -465,6 +464,10 @@ smalltext {
 
   .team-card .opponent-img {
      width: 40%;
+  }
+
+  .date h2 {
+     font-size: 1.5rem;
   }
   
   .watch {
