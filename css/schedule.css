@@ -69,6 +69,10 @@ body {
     width: 35%;
 }
 
+.schedule-column h2 {
+    font-color: #fff;
+    text-align: center;
+
 .scheduled-game {
     width: 100%;
     display: flex;
