@@ -1,7 +1,7 @@
 [
      {
         "year": "2026",
-        "record": "8-2",
+        "record": "9-2",
         "one": { "date": "8/28", "opponent": "@Graham VA", "result": "33-40 L" }, 
         "two": { "date": "9/4", "opponent": "Princeton", "result": "30-32 L" },
         "three": { "date": "9/11", "opponent": "James Monroe", "result": "60-14 W" },
@@ -13,7 +13,7 @@
         "nine": { "date": "10/23", "opponent": "@Greenbrier East", "result": "61-12 W" },
         "ten": { "date": "10/30", "opponent": "Riverview", "result": "76-0 W" },
         "playoff": "PLAYOFFS",
-        "eleven": { "date": "11/13", "opponent": "James Monroe", "result": "-" },
+        "eleven": { "date": "11/13", "opponent": "James Monroe", "result": "54-18 W" },
         "twelve": { "date": "-", "opponent": "-", "result": "-" },
         "thirteen": { "date": "-", "opponent": "-", "result": "-" },
         "fourteen": { "date": "-", "opponent": "--", "result": "-" },
