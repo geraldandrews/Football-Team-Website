@@ -15,7 +15,7 @@
         "playoff": "PLAYOFFS",
         "eleven": { "date": "11/13", "opponent": "James Monroe", "result": "54-18 W" },
         "twelve": { "date": "11/20", "opponent": "Philip Barbour", "result": "45-14 W" },
-        "thirteen": { "date": "-", "opponent": "-", "result": "-" },
+        "thirteen": { "date": "11/27", "opponent": "Roane County", "result": "-" },
         "fourteen": { "date": "-", "opponent": "--", "result": "-" },
         "fifteen": { "date": "-", "opponent": "-", "result": "-" }
     },
