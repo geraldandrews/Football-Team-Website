@@ -37,6 +37,7 @@
    --Richlands: #000066;
    --Ridgeview: #4499cc;
    --Riverview: #331166;
+   --RoaneCounty: #551111;
    --SouthHarrison: #ff4617;
    --Tazewell: #338822;
 }
@@ -296,7 +297,7 @@ nav {
 }
 
 .opponent-text {
-   color: var(--PhilipBarbour);
+   color: var(--RoaneCounty);
    font-weight: 100;
    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
